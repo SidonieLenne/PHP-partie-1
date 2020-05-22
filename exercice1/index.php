@@ -1,5 +1,5 @@
 <?php $object='Bonjour';
-$message=' le boulghour'?>
+$message='le boulghour'?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
     <head>
@@ -7,6 +7,6 @@ $message=' le boulghour'?>
         <title>Exercice 1 PHP</title>
     </head>
     <body>
-       <?php echo $object , $message?>
+       <p><?php echo $object?> <?= $message //<?= est une fonction racourcie pour écrire <?php echo?></p>
     </body>
 </html>
